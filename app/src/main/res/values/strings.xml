@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My shopping list</string>
+    <string name="dialog_title">EXIT</string>
+    <string name="dialog_exit">Are you sure you want to Exit?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="action_favorite">Important</string>
+    <string name="action_settings">Card</string>
+    <string name="dialog_item">new Item</string>
+    <string name="title">My shopping list</string>
+</resources>

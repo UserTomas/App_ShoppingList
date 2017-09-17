@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="7">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/cisla"
+        android:button="@null"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/kosik"
+        android:button="@null"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</LinearLayout>
